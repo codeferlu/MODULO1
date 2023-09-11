@@ -9,14 +9,43 @@
     
     <title>CV Fernando O.</title>
 </head>
-<body>
-    <div class="container">
-        <div class="row gx-4 bg-white-50">
-          <div class="col-md-4 shadow p-3 mb-5 bg-white rounded">
-                <img src="./assets/img/card1.jpg" class="img-fluid" alt="Imagen de Fernando">
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <i class="fa-solid fa-microchip"> CodeFer </i>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Trabajos
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item bg-body" href="#">Desafio Inicial HTML</a></li>
+            <li><a class="dropdown-item bg-body-secondary" href="#">Landing Page CSS </a></li>
+            <li><a class="dropdown-item bg-body-tertiary" href="#">Iguana Page CSS Flex</a></li>
+            <li><a class="dropdown-item bg-body-secondary" href="#">Bootstrap 5.3</a></li>
+            <li><a class="dropdown-item bg-body-tertiary" href="#">Desafio Git</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<body class="bg-danger-subtle ">
+    <div class="container p-4 ">
+        <div class="row gx-4 bg-white-50 gap-4">
+          <div class="col-md-4 shadow-lg p-3 mb-5 bg-white rounded">
+                <img src="./assets/img/card1.jpg" class="img-fluid rounded-circle w-50 mx-auto d-block" alt="Imagen de Fernando">
                 
                 <div class="card-body">
-                  <p class="text">Profesor de Educación Física, actualmente estudiante de Fullstack JS en Desafio Latam.</p>
+                  <p class="text py-2">Profesor de Educación Física, actualmente estudiante de Fullstack JS en Desafio Latam.</p>
                 </div>
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item">An item</li>
@@ -44,13 +73,24 @@
                   <a href="#" class="link">link</a>
                   <a href="#" class="link">Another link</a>
                 </div>
+               
+                <div class="col-md-7 shadow-lg p-3 mb-5 bg-white rounded">
+                </div>
+
+                <div class="col-md-4 shadow-lg p-3 mb-5 bg-white rounded"></div>
+
+                
               </div>
+              
           </div>
+
+          
       
         
       
         </div>
       </div>
+      <script src="https://kit.fontawesome.com/799d103793.js" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
