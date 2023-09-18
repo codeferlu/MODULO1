@@ -1,3 +1,7 @@
-html {
-    background-color: #22dd86;
+* {
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+body {
+    background-color: aquamarine;
 }
